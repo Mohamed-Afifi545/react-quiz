@@ -8,10 +8,10 @@ import Question from "./Question";
 import NextButton from "./NextButton";
 import Progress from "./Progress";
 import FinishScreen from "./FinishScreen";
-import Footer from "../Footer";
+import Footer from "./Footer";
 import Timer from "./Timer";
 
-const SECS_PER_QUESTION = 30;
+const SECS_PER_QUESTION = 10;
 
 const initialState = {
   questions: [],
